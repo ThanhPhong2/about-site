@@ -1,0 +1,339 @@
+.Career {
+  /* padding: 62px 0; */
+  float: left;
+  width: 100%;
+  overflow-x: hidden;
+}
+.Career .row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 480px;
+}
+.Career .column {
+  display: flex;
+  width: 100%;
+  /* margin-left: 170px; */
+  justify-content: center;
+  margin-top: 50px;
+}
+/* iframe */
+.iframe {
+  position: relative;
+  width: 575px;
+  height: 290px;
+}
+
+.iframe iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.iframe-mini {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 260px;
+  height: 150px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  animation: slideUp 0.2s ease-out;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.Career .title {
+  margin-left: 30px;
+  max-width: 40%;
+}
+
+.Career .title h2 {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 4px;
+  text-align: left;
+  color: #333;
+  line-height: 26px;
+}
+
+.Career .title img.line-title {
+  margin-top: 10px;
+  margin-right: 700px;
+}
+
+.Career .title p {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  margin-top: 5px;
+  color: #686f7a;
+  text-align: left;
+  line-height: 26px;
+}
+.Career .checkout {
+  margin-left: -400px;
+  margin-top: 30px;
+}
+
+.checkout {
+  padding: 10px 19px;
+  border-radius: 3px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  background: #ed2a26;
+  font-size: 14px;
+  font-weight: 500;
+  display: inline-block;
+  margin-bottom: 10px;
+  transition: background-color 0.2s, border-color 0.2s;
+}
+
+.checkout:hover {
+  background-color: #c72127;
+  border-color: #c72127;
+}
+
+/* Motivate */
+.Career .container-2th {
+  background-color: #f7f7f7;
+  height: 370px;
+}
+
+.Career .container-2th img {
+  object-fit: fill;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  margin-left: 725px;
+  margin-top: 60px;
+}
+
+.Career .container-2th p {
+  text-align: center;
+  width: 51%;
+  margin-left: 380px;
+  margin-top: 20px;
+}
+
+.Career .container-2th h4 {
+  text-align: center;
+  margin-top: 40px;
+  margin-left: 17px;
+}
+.Career .container-2th .next-btn {
+  position: absolute;
+  top: 111%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  color: white;
+  border: none;
+  padding: 10px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 30px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.Career .container-2th .next-btn img {
+  width: 19px;
+  height: 19px;
+  position: relative;
+  margin-left: 0;
+  top: -30px;
+}
+.Career .container-2th .next-btn:hover {
+  background-color: red;
+}
+.Career .container-2th .next-btn:hover img {
+  filter: brightness(0) invert(1);
+}
+.Career .container-2th .prev-btn:hover img {
+  filter: brightness(0) invert(1);
+}
+.Career .container-2th .prev-btn:hover {
+  background-color: red;
+}
+.Career .container-2th .prev-btn {
+  position: absolute;
+  top: 110%;
+  left: 9%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  color: white;
+  border: none;
+  padding: 10px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 30px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Career .container-2th .prev-btn img {
+  width: 19px;
+  height: 19px;
+  position: relative;
+  margin-left: 0;
+  top: -30px;
+}
+.Career .container-2th .slick-disabled {
+  opacity: 0.5;
+}
+
+/*Benefit*/
+
+.Career .container-3th .row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #ffffff;
+  height: 680px;
+}
+.Career .container-3th .column {
+  margin-top: -40px;
+}
+
+.Career .container-3th p {
+  width: 100%;
+}
+.Career .container-3th .feature {
+  margin-left: 14px;
+}
+
+.Career .container-3th .title h2 {
+  text-align: center;
+}
+.Career .container-3th .title p {
+  text-align: center;
+  width: 85%;
+}
+
+.Career .container-3th .title img.line-title {
+  width: 50px;
+  margin-bottom: 20px;
+  margin-left: 275px;
+}
+
+/**/
+.Career .container-4th {
+  display: flex;
+  justify-content: center;
+  background-color: #f7f7f7;
+}
+
+.Career .container-4th .row {
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
+  justify-content: center;
+  height: 860px;
+  margin-top: -50px;
+}
+
+.Career .container-4th .column {
+  width: 100%;
+  align-items: center;
+}
+
+.Career .container-4th .title {
+  text-align: center;
+}
+.Career .container-4th .title h2 {
+  text-align: center;
+  margin-right: 30px;
+}
+.Career .container-4th h3 {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  margin-top: 5px;
+  color: #686f7a;
+  text-align: center;
+  line-height: 26px;
+}
+
+.Career .container-4th .title p {
+  text-align: center;
+  margin-right: 30px;
+}
+
+.Career .container-4th .title img.line-title {
+  margin-left: 200px;
+}
+
+.Career .container-4th .job-card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-content: center;
+  flex: auto;
+}
+.Career .container-4th .job-card .job-name {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 15px !important;
+  text-align: center;
+  color: #333;
+  line-height: 26px;
+  
+  margin-top: 12px;
+}
+
+.Career .container-4th .job-info {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 3px;
+  text-align: center;
+  height: 150px;
+  width: 530px;
+}
+
+.Career .container-4th .job-info h2 {
+  text-align: center;
+  
+}
+
+.Career .container-4th button {
+  height: 40px;
+  padding: 10px 19px;
+  border-radius: 3px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  background: #ed2a26;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  display: inline-block;
+  margin-bottom: 30px;
+  transition: background-color 0.2s, border-color 0.2s; 
+}
+
+.Career .container-4th button:hover {
+  background-color: #333;
+  /* border-color: #c72127; */
+}

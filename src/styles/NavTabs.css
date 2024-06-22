@@ -1,0 +1,70 @@
+.NavTab {
+  float: left;
+  width: 100%;
+  background: #fff;
+  position: relative;
+  top: 60px;
+}
+.NavTab:before {
+  content: "";
+  background: url(../styles/title_bg.jpg) center bottom repeat-x;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  pointer-events: none;
+  background-size: contain;
+  opacity: 0.1;
+  height: 200px;
+}
+.nav-item {
+  margin-top: 30px;
+}
+
+.nav-item .nav-item-nav-link {
+  color: #333;
+  text-decoration: none;
+  padding: 8px 15px;
+  margin: 0 5px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: color 0.3s, border-bottom-color 0.3s;
+}
+
+.nav-item .nav-item-nav-link:hover {
+  color: #261c1c;
+}
+
+.nav-item .nav-item-nav-link.active {
+  position: relative; 
+}
+
+.nav-item .nav-item-nav-link.active::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #ed2a26; 
+  animation: fadeIn 0.5s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.Slogan {
+  margin-top: 70px;
+  margin-bottom: 35px;
+}
+
+.Slogan h2 {
+  font-size: 24px;
+}
